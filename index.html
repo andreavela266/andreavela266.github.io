@@ -1,89 +1,107 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <!-- Este es mi título de página -->
-    <title>Curriculum Andrea Vela</title>
-    <h1>Andrea Vela</h1>
-    <nav>
-        <ul>
-            <span>
-          <li><a href="https://www.youtube.com/">Currículum</a></li>
-          <li><a href="https://www.youtube.com/">Contacto</a></li>
-          <li><a href="https://www.youtube.com/">Blog</a></li>
-          <li><a href="https://www.facebook.com/andrea.vela.14"> <img src="http://tunnelhillpartners.com/wp-content/uploads/2015/05/Facebook-logo-png-2.png" alt="Logo Facebook" width="50px" height="50px"> Logo Facebook </a>
-          </li>
-        </span>
-        </ul>
-    </nav>
-    <!-- Esta es mi tag de caracteres -->
-    <meta charset="utf-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Andrea Vela</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:300" rel="stylesheet">
+	<link rel="stylesheet" href="https://bootswatch.com/united/bootstrap.min.css">
+	<link rel="stylesheet" href="estilos.css">
+	<style>
+  /* Note: Try to remove the following lines to see the effect of CSS positioning */
+  .affix {
+      top: 20px;
+  }
+  </style>
 </head>
 
-<!-- Aquí inicia mi contenido -->
-
 <body>
-    <!-- Este es mi título -->
-    <h1>La casa azul en la colina</h1>
-    <p> <span style="color blue">Este es un párrafo de la historia de la casa azul Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </span></p>
-    <!-- Este es un elemento sin significado -->
-    <div class="Cosas que hay en la casa azul">
-        <!-- Esta es un alista desordenada -->
-        <ul>
-            <!-- Título de lista -->
-            <h4>Pequeño título</h4>
-            <!-- Elementos de lista -->
-            <li> 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </li>
-            <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </li>
-        </ul>
-        <!-- Esta es una lista ordenada -->
-        <ol>
-            <!-- Tìtulo de la lista -->
-            <h5>Título no tan pequeño</h5>
-            <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </li>
-            <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </li>
-        </ol>
-        <h1> TITULO NUEVO DE PRUEBA</h1>
-    </div>
-    <footer>
-        <!-- Liga a mi página de GitHub -->
-        <a href="https://github.com/andreavela266" title="Mi link a GitHub">Mi link a GitHub</a>
-        <br>
-        <!-- Imagen de referencia y link -->
-        <a href="https://github.com/andreavela266"> <img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt="Logo de GitHub" width="150px" height="130px"></a>
-    </footer>
-     <br>
-      <section class="grupo1">
-      <!-- Esta es una forma de usuario y contraseña -->
-      <form class="inicio de sesion" action="index.html" method="post">
-        <!-- Casilla de usuario -->
-        <div>
-         <input type="text" placeholder="Usuario">
-        </div>
-        <!-- Casilla de contraseña -->
-        <div>
-          <input type="email" placeholder="contraseña">
-        </div>
-        <!-- Casilla para mensaje -->
-        <textarea name="messeage" id="" cols="30" rows="10" placeholder="tu mensaje"></textarea>
-        <br>
-        <label for="Género"> Género: </label><br>
-        <input type="radio" name="gender" value="male" checked> Male <br>
-        <input type="radio" name="gender" value="female"> Female <br>
-        <input type="radio" name="gender" value="otro"> Otro <br
-        <br>
-        <fieldset>
-            <label for="Tipo de negocio">Tipo de negocio</label>
-            <input id="tipo de negocio" name="tipo de negocio" type="text" placeholder="Tipo de negocio">
-        </fieldset>
-        <!-- Botón de enviar información -->
-        <input type="submit" value="Mandar">
-      </form>
-    </section>
+	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mis-nav-links" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+			<a class="navbar-brand" href="#">Andrea Vela</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="#mis-nav-links">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+					<li><a href="#">Link</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Separated link</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">One more separated link</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form class="navbar-form navbar-left">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search">
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Link</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Separated link</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /.navbar-collapse -->
+	</nav>
+		<header  class="jumbotron">
+			<div  class="paddA">
+			<h1>Andrea Vela</h1>
+			<h4>Front End Developer.</h4>
+			<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+		</div>
+		</header>
+		<main class="container">
+		<div class="row">
+			<article class="col-sm-12 col-md-12 col-lg-6">
+				<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis nam accusantium, magni explicabo doloribus nostrum! Enim molestiae, quis, recusandae obcaecati, temporibus aliquid libero, qui ut maxime earum nobis at distinctio!</span><span>Dolores aliquid, doloribus porro minus animi error atque accusantium ad architecto optio ut corporis deleniti dicta vel ratione iure voluptate, fugit ullam hic, illo quia autem quo neque! In, necessitatibus.</span></p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur illo earum ea debitis necessitatibus fugit nesciunt optio eum sit, nostrum aspernatur vel quos eaque suscipit accusantium molestiae harum laboriosam? Similique!</p>
+				<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa vitae corrupti minima, velit hic eius, ut nam repellat deserunt. Harum totam ipsa similique architecto, ullam magnam corporis qui, tempora numquam.</span><span>Tempore accusamus facere ipsum a deleniti accusantium. In, ratione, ad maxime nam quia delectus culpa ipsum dicta reiciendis, voluptatibus eum saepe eius nesciunt dolor reprehenderit repudiandae? Harum suscipit quos, earum!</span></p>
+			</article>
+			<aside class="col-sm-12 col-md-6 col-lg-3 padd">
+				<h5>Lorem ipsum dolor sit amet</h5>
+				<ul class="list-group">
+					<li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+					<li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+					<li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+					<li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+					<li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+					<li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+				</ul>
+			</aside>
+		</div>
+		<hr>
+	</main>
+	<footer>
+		<p>Creado por Sergei Garcia</p>
+	</footer>
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>

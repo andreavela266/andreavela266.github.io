@@ -1,0 +1,21 @@
+body { padding-top: auto; }
+.padd {
+                padding-left: 10px;
+}
+.paddA {
+                padding-left: 80px;
+}
+h5 {
+      padding: inherit;
+    }
+*.jumbotron {
+  background-image: url('https://static.pexels.com/photos/197808/pexels-photo-197808.jpeg');
+  background-size: cover;
+  height: 400px;
+}
+
+footer {
+           background-color: black;
+           color: white;
+           padding: 10px;
+}
